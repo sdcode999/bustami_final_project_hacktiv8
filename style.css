@@ -2,6 +2,7 @@
 
 :root {
   --color-blue: #1697a6;
+  --color-blue-light: #1bc6da;
   --color-orange: #ffc24b;
   --color-pink: #ffb3ae;
   --color-white: #fff;
@@ -18,6 +19,7 @@
 html {
   font-size: 62.5%;
   font-family: Poppins, sans-serif;
+  scroll-behavior: smooth;
 }
 
 /* Global rules */
@@ -29,13 +31,52 @@ html {
   background-color: wheat;
 }
 
+.heading-1 {
+  font-size: 7rem;
+  line-height: 1;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.heading-2 {
+  font-size: 4rem;
+  line-height: 1;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.body-text {
+  color: var(--color-white);
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: 1.5rem;
+}
+
+.cta {
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.3rem 1.5rem;
+  background-color: var(--color-blue);
+  border-radius: 1rem;
+  color: var(--color-white);
+  transition: all 0.3s 0s ease-in;
+}
+
+.cta:hover {
+  background-color: var(--color-blue-light);
+}
+
 /* ========================================== */
 
 header {
   background-color: var(--color-orange);
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
 }
+
+/* NAV STYLE */
 
 .header-nav {
   display: flex;
@@ -68,6 +109,7 @@ header {
   font-size: 1.4rem;
   font-weight: 500;
   padding: 1rem 3rem;
+  border-radius: 0.5rem;
   transition: all 0.3s 0s ease-in;
 }
 
@@ -75,3 +117,38 @@ header {
   background-color: var(--color-blue);
   color: var(--color-white);
 }
+
+/* ========================================== */
+
+/* HEADER CONTENT */
+.header-content {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-title {
+  width: 45%;
+}
+
+.header-img {
+  width: 55%;
+}
+
+.header-content .header-title .heading-1,
+.header-content .header-title .heading-2 {
+  color: var(--color-blue);
+}
+
+.header-img {
+  margin-left: 3rem;
+}
+
+.header-content .header-img img {
+  width: 100%;
+}
+/* ========================================== */
+
+/* HEADER CONTENT */
+/* ========================================== */ ;
