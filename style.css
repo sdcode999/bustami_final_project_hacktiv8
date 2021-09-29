@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --color-blue: #1697a6;
+  --color-orange: #ffc24b;
+  --color-pink: #ffb3ae;
+  --color-white: #fff;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: Poppins, sans-serif;
+}
+
+/* Global rules */
+.wrap {
+  width: 120rem;
+}
+
+.nav-active {
+  background-color: wheat;
+}
+
+/* ========================================== */
+
+header {
+  background-color: var(--color-orange);
+  display: flex;
+  justify-content: center;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 7rem;
+}
+
+.header-nav .logo span a {
+  font-size: 3rem;
+  font-weight: 900;
+  font-style: italic;
+  color: var(--color-white);
+  text-decoration: none;
+}
+
+.header-nav nav ul {
+  display: flex;
+}
+
+.header-nav nav ul li {
+  list-style: none;
+  margin-left: 1rem;
+}
+
+.header-nav nav ul li a {
+  display: block;
+  text-decoration: none;
+  color: var(--color-blue);
+  font-size: 1.4rem;
+  font-weight: 500;
+  padding: 1rem 3rem;
+  transition: all 0.3s 0s ease-in;
+}
+
+.header-nav nav ul li a:hover {
+  background-color: var(--color-blue);
+  color: var(--color-white);
+}
