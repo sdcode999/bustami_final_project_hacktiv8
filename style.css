@@ -22,6 +22,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  background-color: var(--color-pink);
+}
+
 /* Global rules */
 .wrap {
   width: 120rem;
@@ -43,6 +47,13 @@ html {
   line-height: 1;
   font-weight: 600;
   margin-bottom: 1.5rem;
+}
+
+.heading-3 {
+  font-size: 1.6rem;
+  line-height: 1;
+  font-weight: 500;
+  margin-bottom: 1rem;
 }
 
 .body-text {
@@ -153,7 +164,6 @@ header {
 /* SECTION ABOUT */
 #about {
   background-color: var(--color-blue);
-  width: 100%;
   height: 60rem;
   border-radius: 0 0 3rem 0;
   clip-path: polygon(100% 0, 100% 80%, 0 100%, 0 0);
@@ -183,6 +193,138 @@ header {
 #about .about-me h2 {
   align-self: flex-end;
   color: var(--color-pink);
+}
+/* ========================================== */
+
+/* SECTION PORTOFOLIO */
+#portofolio {
+  width: 100%;
+  height: 70rem;
+  background-color: var(--color-pink);
+  padding: 5rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+#portofolio .portofolio-content {
+  display: flex;
+  flex-direction: column;
+}
+
+#portofolio h2 {
+  color: var(--color-blue);
+  align-self: flex-end;
+}
+
+#portofolio .portofolio-case {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5.5rem;
+}
+
+#portofolio .portofolio-case1,
+#portofolio .portofolio-case2 {
+  width: 55rem;
+  height: 40rem;
+  background-color: #fff;
+  border-radius: 3rem;
+  border: 1rem solid var(--color-white);
+}
+
+#portofolio .portofolio-case1 {
+  background-image: url("img/folio1.jpg");
+  background-size: cover;
+  object-fit: cover;
+}
+
+#portofolio .portofolio-case2 {
+  background-image: url("img/folio2.jpg");
+  background-size: cover;
+  object-fit: cover;
+}
+/* ========================================== */
+
+/* SECTION BLOG */
+#blog {
+  height: 60rem;
+  background-color: var(--color-blue);
+  clip-path: polygon(0 20%, 0 100%, 100% 100%, 100% 0);
+  padding: 10rem 0 5rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+#blog .blog-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#blog .blog-content h2 {
+  color: var(--color-pink);
+  align-self: flex-end;
+}
+
+#blog .blog-content .blog-article {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5.5rem;
+}
+
+#blog .blog-content .blog-article .blog-post1,
+#blog .blog-content .blog-article .blog-post2,
+#blog .blog-content .blog-article .blog-post3 {
+  width: 30rem;
+  height: 35rem;
+  background-color: var(--color-pink);
+  border-radius: 2rem;
+}
+
+#blog .blog-post1 .blog-img {
+  width: 100%;
+  height: 20rem;
+  border-radius: 2rem 2rem 0 0;
+  overflow: hidden;
+  background-image: url("img/apl.jpg");
+  background-size: cover;
+}
+
+#blog .blog-post2 .blog-img {
+  width: 100%;
+  height: 20rem;
+  border-radius: 2rem 2rem 0 0;
+  overflow: hidden;
+  background-image: url("img/ecommerce.jpg");
+  background-size: cover;
+}
+
+#blog .blog-post3 .blog-img {
+  width: 100%;
+  height: 20rem;
+  border-radius: 2rem 2rem 0 0;
+  overflow: hidden;
+  background-image: url("img/web.jpg");
+  background-size: cover;
+}
+
+#blog .blog-head {
+  padding: 2rem;
+}
+
+#blog .blog-head .date {
+  font-size: 1.3rem;
+  margin-bottom: 0.2rem;
+}
+
+#blog .blog-head .author {
+  font-size: 1.1rem;
+}
+
+#blog .blog-head .author span {
+  font-weight: 600;
+  font-size: 1.2rem;
 }
 /* ========================================== */
 
