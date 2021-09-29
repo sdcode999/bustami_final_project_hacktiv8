@@ -150,5 +150,41 @@ header {
 }
 /* ========================================== */
 
+/* SECTION ABOUT */
+#about {
+  background-color: var(--color-blue);
+  width: 100%;
+  height: 60rem;
+  border-radius: 0 0 3rem 0;
+  clip-path: polygon(100% 0, 100% 80%, 0 100%, 0 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#about .about-img {
+  width: 25rem;
+  height: 35rem;
+  background-color: #fff;
+  border-radius: 2rem;
+  border: 1rem solid var(--color-white);
+  background-image: url("img/profil.jpg");
+  background-size: cover;
+  object-fit: cover;
+  margin-right: 5rem;
+}
+
+#about .about-me {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+#about .about-me h2 {
+  align-self: flex-end;
+  color: var(--color-pink);
+}
+/* ========================================== */
+
 /* HEADER CONTENT */
 /* ========================================== */ ;
