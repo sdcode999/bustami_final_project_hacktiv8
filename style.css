@@ -249,7 +249,7 @@ header {
   height: 60rem;
   background-color: var(--color-blue);
   clip-path: polygon(0 20%, 0 100%, 100% 100%, 100% 0);
-  padding: 10rem 0 5rem 0;
+  padding: 10rem 0 10rem 0;
   display: flex;
   justify-content: center;
 }
@@ -325,6 +325,68 @@ header {
 #blog .blog-head .author span {
   font-weight: 600;
   font-size: 1.2rem;
+}
+/* ========================================== */
+
+/* SECTION TEAM */
+#team {
+  height: 45rem;
+  background-color: var(--color-orange);
+  display: flex;
+  justify-content: center;
+}
+
+#team .team-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+}
+
+#team .team-content h2 {
+  align-self: flex-end;
+  color: var(--color-blue);
+}
+
+#team .team-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5.5rem;
+}
+
+#team .team-block .team-img {
+  width: 20rem;
+  height: 20rem;
+  margin: 0 5rem;
+}
+
+#team .team-block .team-img .person1 {
+  background-image: url("img/profil.jpg");
+  background-size: cover;
+  overflow: hidden;
+  height: 100%;
+  border-radius: 50%;
+}
+#team .team-block .team-img .person2 {
+  background-image: url("img/person1.jpg");
+  background-size: cover;
+  overflow: hidden;
+  height: 100%;
+  border-radius: 50%;
+}
+#team .team-block .team-img .person3 {
+  background-image: url("img/person2.jpg");
+  background-size: cover;
+  overflow: hidden;
+  height: 100%;
+  border-radius: 50%;
+}
+#team .team-block .team-img .person4 {
+  background-image: url("img/person3.jpg");
+  background-size: cover;
+  overflow: hidden;
+  height: 100%;
+  border-radius: 50%;
 }
 /* ========================================== */
 
