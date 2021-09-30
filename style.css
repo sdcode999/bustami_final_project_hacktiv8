@@ -351,13 +351,19 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 5.5rem;
+  margin-top: 3.5rem;
+}
+
+#team .team-person {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #team .team-block .team-img {
   width: 20rem;
   height: 20rem;
-  margin: 0 5rem;
+  margin: 2rem 5rem;
 }
 
 #team .team-block .team-img .person1 {
@@ -388,6 +394,23 @@ header {
   height: 100%;
   border-radius: 50%;
 }
+
+#team .team-name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#team .team-name h3 {
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+#team .team-name p {
+  color: var(--color-blue);
+  font-weight: 500;
+}
+
 /* ========================================== */
 
 /* HEADER CONTENT */
