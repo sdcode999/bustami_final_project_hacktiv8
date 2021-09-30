@@ -13,3 +13,11 @@ navLink.forEach((Element) => {
     this.classList.add("active");
   });
 });
+
+// const logoClick = document.querySelector(".header-nav .logo a");
+
+// logoClick.addEventListener("click", function () {
+//   const home = document.querySelector(".header-nav nav ul a");
+
+//   home.classList.add("active");
+// });
